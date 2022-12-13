@@ -1,4 +1,4 @@
-# cidr-to-mask
+## cidr-to-mask
 
 Example:
 
