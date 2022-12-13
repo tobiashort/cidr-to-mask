@@ -20,7 +20,7 @@ Flags:
 }
 
 func printInvalid(input string) {
-	fmt.Printf("Invalid input '%s'\n", input)
+	fmt.Fprintf(os.Stderr, "Invalid input '%s'\n", input)
 	os.Exit(-1)
 }
 
