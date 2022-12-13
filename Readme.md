@@ -1,8 +1,7 @@
-## cidr-to-mask
-
-Example:
-
 ```
-$ cidr-to-mask 24
-255.255.255.0
+Usage: cidr-to-mask [CIDR]
+Reads from STDIN if CIDR is not provided as an argument.
+
+Flags:
+  -h	print help
 ```
